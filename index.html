@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>202251222_Eko Joko Suryanto</title>
+
+    <!-- swiper link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- cdn icon link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+</head>
+
+<body>
+
+    <!-- header section start here  -->
+    <header class="header">
+        <div class="logoContent">
+            <a href="#" class="logo"><img src="images/logoo.png" alt=""></a>
+            <h1 class="logoName">Crust <em>&amp;</em> Crave </h1>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#produk">produk</a>
+            <a href="#layanan">Layanan</a>
+            <a href="#pemesanan">Pemesanan</a>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-bars" id="menu-bar"></i>
+        </div>
+        
+    </header>
+    <!-- header section end here  -->
+
+
+    <!-- home section start here  -->
+    <section class="home" id="home">
+        <div class="homeContent">
+            <h2> Crust <em>&amp;</em>  Crave </h2>
+            <p>"Selamat datang! Nikmati roti terbaik yang dibuat khusus untuk Anda."</p>
+            <div class="info">
+                <button><a href="#vimi">Visi Misi Kami</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- home section end here  -->
+
+    <!-- section visi misi -->
+    <section class="vimi" id="vimi">
+        <div class="visi">
+            <h1>Visi</h1>
+            <p>“Menyajikan kenikmatan roti yang menggugah selera dan menghadirkan pengalaman kuliner tak terlupakan, dengan mengutamakan kepuasan pelanggan dan menjunjung tinggi kehormatan setiap karyawan.”</p>
+        </div>
+        <div class="misi">
+            <h1>Misi</h1>
+            <ol>
+                <li>Memberikan pengalaman berbelanja yang nyaman dan ramah bagi setiap pelanggan melalui pelayanan penuh perhatian.</li>
+                <li>Menjamin kualitas dan rasa otentik dalam setiap produk roti yang dinikmati pelanggan yang terhormat.</li>
+                <li>Menghargai setiap anggota tim sebagai aset berharga yang berkontribusi dalam menciptakan kepuasan pelanggan.</li>
+                <li>Menerapkan standar profesionalisme dalam pelayanan untuk menjaga kepercayaan pelanggan sebagai prioritas utama.</li>
+            </ol>
+        </div>
+    </section>
+    <!-- akhir section visi misi-->
+
+    <!-- product section start here  -->
+    <section class="produk" id="produk">
+        <div class="border">
+            <div class="heading">
+                <h2>Menu Produk</h2>
+            </div>
+            <div class="tipe">
+                <h5>Roti Fermentasi</h5>
+            </div>
+            <div class="swiper product-row">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="images/sourdough.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Sourdough</h3><br>
+                            <h2>Harga : Rp15.000</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="images/CCiabatta.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Ciabatta</h3><br>
+                            <h2>Harga : Rp12.000</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="images/Focaccia.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Focaccia</h3><br>
+                            <h2>Harga : 15.000</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="images/Baguettes.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Baguettes</h3><br>
+                            <h2>Harga : 13.000</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="info">
+                <button><a href="#keterangan">Informasi Lanjut</a></button>
+            </div>
+            <div class="tipe">
+                <h4>Roti Manis</h4>
+            </div>
+            <div class="swiper product-row">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="images/Brioche Bunn.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Brioche Bun</h3>
+                            <h2>Harga : Rp 12.000</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="images/Pain Au Chocolat.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolatine</h3><br>
+                            <h2>Harga : Rp17.000</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="images/Banana Bread.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Banana Bread</h3><br>
+                            <h2>Harga : Rp10.000</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="images/Cinnamon Roll.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Cinnamon Roll</h3><br>
+                            <h2>Harga : Rp12.000</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="info">
+                <button><a href="#keterangan">Information Lanjut</a></button>
+            </div>
+        </div>
+    </section>
+    <section class="keterangan" id="keterangan">
+        <div class="list">
+            <h1>List Menu</h1>
+            <h3>Roti Fermentasi</h3>
+            <ol>
+                <li>Baguette : Roti Prancis panjang dengan kerak renyah, cocok untuk sandwich.</li>
+                <li>Sourdough : Roti fermentasi alami dengan rasa asam ringan, bertekstur padat di dalam dan renyah di luar.</li>
+                <li>Ciabatta : Roti Italia dengan kerak renyah dan bagian dalam berongga, cocok untuk sandwich gurih.</li>
+                <li>Focaccia : Roti datar lembut khas Italia, diberi taburan minyak zaitun, rosemary, dan garam laut.</li>
+            </ol>
+            <h3>Roti Manis</h3>
+            <ol>
+                <li>Brioche Bun : Roti lembut dengan rasa manis ringan, cocok untuk burger atau dinikmati dengan krim dan buah.</li>
+                <li>Cinnamon Roll: Roti manis berisi kayu manis dan gula, dengan lapisan gula di atasnya, lembut dan menggoda.</li>
+                <li>Banana Bread : Roti manis dengan rasa pisang yang kuat, lembut, dan harum, cocok untuk sarapan atau camilan.</li>
+                <li>Chocolatine : Roti berlapis dari adonan croissant dengan isi cokelat leleh, lembut dan manis.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="layanan" id="layanan">
+        <div class="heading">
+            <h2>Layanan</h2>
+        </div>
+        <div class="informasi">
+            <h2>Crust <em>&amp;</em> Crave sudah memiliki beberapa outlet lainnya di berbagai tempat dan siap melayani pelanggan terhormat. Anda bisa langsung membeli produk kami dengan mengunjungi outlet yang tersebar di seluruh Indonesia ataupun bisa langsung memesannya pada halaman pemesanan</h2>
+        </div>
+        <div class=" swiper review-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <div id="map1" class="map"></div>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/toko.jpg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Crust <em>&amp;</em> Crave Bakery</h3>
+                            <p>Jl. Pahlawan No. 10, Kudus, Jawa Tengah, 12345</p>
+                            <p>Buka mulai 08.00 - 20.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <div id="map2" class="map"></div>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/toko.jpg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Crust <em>&amp;</em> Crave Bakery - Kutai</h3>
+                            <p>Jl. A. Yani No. 10, Tenggarong, Kutai, Kalimantan Timur, 12345</p>
+                            <p>Buka mulai 09:00 - 21:00 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <div id="map3" class="map"></div>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/toko.jpg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Crust <em>&amp;</em> Crave Mall Bakery</h3>
+                            <p>Jl. S. Parman No. 213211, Jakarta Barat, DKI Jakarta, 1234526</p>
+                            <p>Buka mulai 08.00 - 20.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <div id="map4" class="map"></div>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/toko.jpg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Crust <em>&amp;</em> Crave Bakery</h3>
+                            <p>Jl. MH Thamrin No. 1233, Palembang, Sumatera Selatan, 1222345</p>
+                            <p>Buka mulai 08:00 - 20:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="pemesanan" id="pemesanan">
+        <div class="heading">
+            <h2>Pemesanan</h2>
+        </div>
+        <div class="swiper review-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Untuk pemesanan bisa melalui WhatsApp di bawah ini ataupun bisa langsung datang ke Outlet terdekat</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="clientDetailed">
+                            <h3>WhatsApp</h3>
+                            <a href="https://wa.me/+6285886031844"> <i class="fab fa-whatsapp"></i>085-886-031-844</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start here  -->
+    <footer class="footer" id="contact">
+        <div class="box-container">
+            <div class="mainBox">
+                <div class="content">
+                    <a href="#"><img src="images/gambar.png" alt=""></a>
+                    <h1 class="logoName"> Crust <em>&amp;</em> Crave </h1>
+                </div>
+                <p>Selamat datang di dunia roti yang dibuat untuk memanjakan Anda! Kami percaya setiap gigitan harus membawa kebahagiaan, dan setiap pelanggan adalah raja yang layak mendapatkan yang terbaik. Jelajahi beragam roti kami yang dibuat dengan cinta dan siap dikirim ke mana saja. Nikmati roti berkualitas tinggi dari tim berdedikasi yang selalu memprioritaskan kepuasan Anda.</p>
+
+            </div>
+            <div class="box">
+                <h3>Akses Cepat</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#vimi"> <i class="fas fa-arrow-right"></i>About</a>
+                <a href="#product"> <i class="fas fa-arrow-right"></i>Produk</a>
+            </div>
+            <div class="box">
+                <h3>---------------------------</h3>
+                <a href="#review"> <i class="fas fa-arrow-right"></i>Layanan</a>
+                <a href="#contact"> <i class="fas fa-arrow-right"></i>Pemesanan</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="https://wa.me/+6285886031844"> <i class="fas fa-phone"></i>085-886-031-844</a>
+                <a href="mailto:rustcrave@gmail.com?subject=Subject%20Text&body=Isi%20Pesan"> <i class="fas fa-envelope"></i>crustcrave@gmail.com</a>
+
+            </div>
+
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file  -->
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
